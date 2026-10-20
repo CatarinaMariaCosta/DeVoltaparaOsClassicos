@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <?php include __DIR__ .'../includes/headerC.php'; ?>
+    <?php include __DIR__ .'/includes/headerC.php'; ?>
 
     <h2>Olá, Seja bem-vindo à De volta para os clássicos 🍿<h2>
     <h3>"O seu futuro ainda não foi escrito. O de ninguém foi. Seu futuro é o que você fizer dele. <br>
@@ -20,6 +20,6 @@
 </p>
 
      
-    <?php include __DIR__ .'../includes/footer.php'; ?>
+    <?php include __DIR__ .'/includes/footer.php'; ?>
 </body>
 </html>
