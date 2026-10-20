@@ -130,7 +130,7 @@ deVoltaparaOsClassicos/
 No PowerShell ou terminal PowerShell do VS Code:
 
 ```powershell
-git clone https://github.com/CatarinaMariaCosta/DeVoltaParaOsClassicos.git locadora-projeto
+git clone https://github.com/CatarinaMariaCosta/DeVoltaparaOsClassicos.git locadora-projeto
 Set-Location .\locadora-projeto\deVoltaparaOsClassicos
 ```
 
