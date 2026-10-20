@@ -172,8 +172,8 @@ sudo -u postgres psql -p 5432
 Dentro do `psql`, para criar o usuário e a base:
 
 ```sql
-CREATE USER nome_do_usuario WITH PASSWORD 'senha_do_usuario';
-CREATE DATABASE nome_do_banco OWNER nome_do_usuario;
+CREATE USER classico WITH PASSWORD 'filmes';
+CREATE DATABASE locadora OWNER classico;
 \q
 ```
 
@@ -182,7 +182,7 @@ CREATE DATABASE nome_do_banco OWNER nome_do_usuario;
 No terminal remoto do MobaXterm, importe o arquivo em uma base vazia:
 
 ```bash
-psql -U nome_do_usuario -d banco_destino < locadora_completa.sql
+psql -U locadora -d banco_destino < locadora_completa.sql
 psql -h localhost -U classico -d locadora
 ```
 
@@ -197,9 +197,9 @@ No VS Code, abra `db/conexao.php`. O arquivo atual possui credenciais fixas, par
 ```php
 <?php
 $host = "IP_DO_BANCO/SERVIDOR";
-$dbname = "NOME_DO_BANCO";
-$user = "NOME_DO_USUARIO";
-$password = "SENHA_DO_USUARIO";
+$dbname = "locadora";
+$user = "classico";
+$password = "filmes";
 ```
 
 
