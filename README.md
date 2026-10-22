@@ -110,6 +110,48 @@ deVoltaparaOsClassicos/
 ├── style/                 *arquivos de estilização CSS*
 └──   └──style.css         *layout das páginas*
 ```
+```mermaid
+erDiagram
+    %% Estilização e Definição das Tabelas
+    clientes {
+        integer id 🔑 "PK  •  NOT NULL"
+        varchar nome "NOT NULL  (100)"
+        varchar email "NOT NULL  (100)"
+    }
+
+  compras {
+        integer id 🔑 "PK  •  NOT NULL"
+        integer cliente_id 🔗 "FK  •  Permite NULL"
+        varchar produto "NOT NULL  (150)"
+        numeric valor "NOT NULL  (10,2)"
+        timestamp data_compra "⚡ DEFAULT CURRENT_TIMESTAMP"
+    }
+
+  colecao {
+        integer id 🔑 "PK  •  NOT NULL"
+        varchar produto "NOT NULL  (150)"
+        numeric preco "NOT NULL  (10,2)"
+        varchar descr "NOT NULL  (500)"
+        boolean ativo "⚡ DEFAULT true"
+    }
+
+  movie {
+        integer id 🔑 "PK  •  NOT NULL"
+        varchar produto "NOT NULL  (150)"
+        numeric preco "NOT NULL  (10,2)"
+        varchar descr "NOT NULL  (500)"
+        boolean ativo "⚡ DEFAULT true"
+    }
+
+  funcionario {
+        integer id 🔑 "PK  •  NOT NULL"
+        varchar email "NOT NULL  (150)"
+        varchar senha "NOT NULL  (16)"
+    }
+
+  %% Relacionamentos e Fluxo
+    clientes ||--o| compras : "realiza"
+```
 
 ## *Como entrar no meu projeto*
 
