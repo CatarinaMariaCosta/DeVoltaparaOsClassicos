@@ -1,6 +1,6 @@
 # De volta para os Clássicos 
 
->*Projeto realizado durante 25/09/26 - 13/10/26* <br>
+>*Projeto realizado durante 25/09/26 - 20/10/26* <br>
 >*Aluna: Catarina Maria da Costa*<br>
 >*Professor: Jorge Carneiro, Luiz Henrique Platini, Carlos Morato*<br>
 >*Turma: I1D35*<br>
