@@ -172,8 +172,8 @@ erDiagram
 No PowerShell ou terminal PowerShell do VS Code:
 
 ```powershell
-git clone https://github.com/CatarinaMariaCosta/DeVoltaParaOsClassicos.git locadora-projeto
-Set-Location .\locadora-projeto\deVoltaparaOsClassicos
+git clone https://github.com/CatarinaMariaCosta/DeVoltaParaOsClassicos.git DeVoltaParaOsClassicos
+Set-Location .\DeVoltaParaOsClassicos\deVoltaparaOsClassicos
 ```
 
 A clonagem exige acesso à conta/repositório. Se já possui os arquivos, abra no VS Code a pasta que contém `index.php`.
